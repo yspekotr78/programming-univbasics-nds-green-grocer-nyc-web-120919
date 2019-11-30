@@ -122,5 +122,7 @@ def checkout(cart, coupons)
       total += (current_item[:price] * current_item[:count]).round(2)
       index +=1
     end
+    
+    if 
     total
 end
