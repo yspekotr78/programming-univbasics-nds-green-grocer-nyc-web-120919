@@ -115,7 +115,7 @@ def checkout(cart, coupons)
   total = 0.0
   checkout = consolidate_cart(cart)
   checkout = apply_coupons(checkout,coupons)
-  checkout = apply_clearance(cart)
+  checkout = apply_clearance(checkout)
   index = 0
     while index < checkout.length do
       current_item = cart[index]
