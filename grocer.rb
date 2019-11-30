@@ -117,7 +117,7 @@ def checkout(cart, coupons)
   checkout = apply_coupons(checkout,coupons)
   checkout = apply_clearance(cart)
   index = 0
-    while index < cart.length do
+    while index < checkout.length do
       current_item = cart[index]
       if current_item[:count]>1
         total += current_item[:price] * current_item[:count]
