@@ -119,7 +119,6 @@ def checkout(cart, coupons)
   index = 0
     while index < checkout.length do
       current_item = cart[index]
-      if current_item[:count]>1
         total += current_item[:price] * current_item[:count]
       else
         total +=current_item[:price]
