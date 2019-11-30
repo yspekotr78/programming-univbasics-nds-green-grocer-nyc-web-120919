@@ -124,5 +124,5 @@ def checkout(cart, coupons)
     end
     
     
-    total
+    p total
 end
